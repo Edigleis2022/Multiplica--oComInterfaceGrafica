@@ -3,11 +3,11 @@ import javax.swing.JOptionPane;
 public class App {
     public static void main(String[] args) throws Exception {
         // Caixa de dialogo  de boas vindas
-        JOptionPane.showMessageDialog(null, message);
+        JOptionPane.showMessageDialog(null, message, "title");
         // Caixa de dialogo de interação 1
-        String variavel = JOptionPane.showInputDialog(null, message);
+        String variavel = JOptionPane.showInputDialog(null, message, "title");
         // Caixa de dialogo de interação 2
-        String variavel1 = JOptionPane.showInputDialog(null, message);
+        String variavel1 = JOptionPane.showInputDialog(null, message, "title");
             //parseInt converte a String para Inteiro
             int variavel2 = Integer.parseInt(variavel);
             int variavel3 = Integer.parseInt(variavel1);
